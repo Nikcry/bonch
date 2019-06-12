@@ -1,0 +1,7 @@
+USE book;
+
+CREATE TABLE IF NOT EXISTS users (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(256),
+  phone VARCHAR(256)
+)
